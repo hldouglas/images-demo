@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.masthead {
+  background-image: url("../images/logo.svg"), url("../images/masthead-bg.png");
+  padding-top: 6em;
+  background-size: 75px auto, 200px auto;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
+  text-align: center;
+}
+
+.box {
+  background-color: #3B3A33;
+  padding: 1em;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #A8AE98;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #A8AE98, #5B5E52);
+}
